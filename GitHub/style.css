@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-color:aliceblue;
+    padding:20px;
+}
+
+.row {
+    max-width:1140px;
+    margin:0 auto;
+}
+
+section {
+    padding: 0 0;
+}
+
+.name {
+    float: left;
+    font-size: 25px;
+    font-weight:700;
+}
+
+.special {
+    color:#659DBD
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    font-weight:700;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 8px 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #659DBD;
+    border-bottom: 2px solid #659DBD;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.section-front {
+    background-image: url(/photos/front.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.box:first-child {
+    padding-right:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.long-copy {
+    line-height:160%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right:10%;
+    font-size:15px;
+}
+
+.link:link,
+.link:visited {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+    font-weight:700;
+}
+
+.link:hover,
+.link:active {
+    color: #659DBD;
+    border-bottom: 1px solid #659DBD;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.about-pic {
+    width: 100%;
+    height:auto;
+    display:block;
+}
+
+h2 {
+    padding-left:40px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:17px;
+}
+
+.fieldphoto {
+    list-style:none;
+    width: 100%;
+}
+
+.fieldphoto li {
+    display:block;
+    float:left;
+    width: 50%;
+}
+
+.photo {
+    width:100%;
+    margin: 0;
+    overflow:hidden;
+    background-color:#000;
+    position:relative;
+}
+
+.photo img {
+    opacity:0.7;
+    width:100%;
+    height:auto;
+    transform:scale(1.15);
+    transition:transform 0.5s, opacity 0.5s;
+}
+
+.photo:hover img {
+    opacity: 1;
+    transform:scale(1.03);
+}
+
+.text {
+    color:white;
+    position:absolute;
+    bottom:0;
+    font-size:14px;
+    font-weight:400;
+    line-height:140%;
+    padding: 5px 5px;
+    display:none;
+    transition:display 0.5s;
+    background:rgba(101, 157, 189, 0.60);
+    width:100%;
+}
+
+.photo:hover .text {
+    display:block;
+    transition:display 0.5s;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.social-links {
+    list-style: none;
+    float: left;
+    font-size: 150%;
+}
+
+.social-links:first-child {
+    margin-left: 70px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copyright {
+    display: inline-block;
+    padding: 5px 0;
+    float:right;
+    margin-right:70px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #659DBD;
+    transition: color 0.2s;
+}
+
+.ion-ios-mail:hover {
+    color: #6d607b;
+    transition: color 0.2s;
+}
+
+.ion-logo-github:hover {
+    color: #211f1f;
+    transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+    transition: color 0.2s;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+    transition: color 0.2s;
+}
+
+.ion-logo-instagram:hover {
+    color: #c1558b;
+    transition: color 0.2s;
+}
+
