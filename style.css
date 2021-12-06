@@ -86,6 +86,14 @@ section {
     font-size:1vw;
 }
 
+.long-copy2 {
+    line-height:160%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right:5%;
+    font-size:1.1vw;
+}
+
 .link:link,
 .link:visited {
     color: black;
