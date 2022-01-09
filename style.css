@@ -235,3 +235,7 @@ footer {
     transition: color 0.2s;
 }
 
+.ion-logo-google:hover {
+    color: #F65314;
+    transition: color 0.2s;
+}
